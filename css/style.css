@@ -130,6 +130,32 @@ header{
 
 /* /Strategics Section */
 
+/* Staff Section */
+
+.staff{
+    margin-top: 1.25rem;
+}
+
+.staff-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.staff-col{
+    width: 100%;
+    margin: 1.25rem 0;
+    /* DEBUG */
+    background-color: beige;
+    /* /DEBUG */
+}
+
+.staff-card{
+    background-color: var(--third-color);
+}
+
+/* /Staff Section */
+
 /*-------------
  /MAIN
 ------------ */
