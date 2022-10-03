@@ -79,7 +79,6 @@ header{
         width: 31%;
     }
 }
-/* /Responsive Tablet */
 
 /* Responsive Desktop */
 @media screen and (min-width: 1025px) {
@@ -91,9 +90,45 @@ header{
         width: 31%;
     }
 }
-/* /Responsive Desktop */
 
 /* /Higlights Section */
+
+/* Strategics Section */
+
+.strategics{
+    margin-top: 1.25rem;
+    background-color: var(--third-color);
+}
+
+.strategics-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategics-col{
+    width: 100%;
+    margin: 1.5625rem 0;
+    /* DEBUG */
+    background-color: aqua;
+    /* /DEBUG */
+}
+
+/* Responsive Desktop */
+@media screen and (min-width: 1025px) {
+    .strategics-row{
+        justify-content: space-between;
+    }
+
+    .strategics-col{
+        width: 48%;
+    }
+
+    .strategics-small{
+        align-self: flex-end;
+    }
+}
+
+/* /Strategics Section */
 
 /*-------------
  /MAIN
