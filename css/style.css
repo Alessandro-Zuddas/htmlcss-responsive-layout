@@ -199,6 +199,43 @@ header{
 }
 
 /* /Benefits Section */
+
+/* About Us Section */
+
+.about-us-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.about-us-col{
+    width: 100%;
+    margin-bottom: 1.5625rem;
+}
+
+/* Responsive Tablet */
+@media screen and (min-width: 726px) {
+
+    .about-us-row{
+        justify-content: space-between;
+    }
+
+    .about-us-col{
+        width: 48%;
+        align-self: flex-start;
+    }
+}
+
+/* Responsive Desktop */
+@media screen and (min-width: 1025px) {
+
+    .about-us-col{
+        padding: 0 3.125rem;
+    }
+}
+
+/* /About Us Section */
+
 /*-------------
  /MAIN
 ------------ */
