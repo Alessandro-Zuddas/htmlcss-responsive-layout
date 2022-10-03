@@ -50,10 +50,6 @@ header{
 
 /* Higlights Section */
 
-.highlights{
-    margin-top: 1.25rem;
-}
-
 .highlights-row{
     display: flex;
     flex-wrap: wrap;
@@ -96,7 +92,6 @@ header{
 /* Strategics Section */
 
 .strategics{
-    margin-top: 1.25rem;
     background-color: var(--third-color);
 }
 
@@ -132,10 +127,6 @@ header{
 
 /* Staff Section */
 
-.staff{
-    margin-top: 1.25rem;
-}
-
 .staff-row{
     display: flex;
     flex-wrap: wrap;
@@ -156,6 +147,34 @@ header{
 
 /* /Staff Section */
 
+/* Benefits Section */
+
+.benefits{
+    background-color: var(--third-color);
+}
+
+.benefits-title{
+    text-align: center;
+    color: white;
+    font-size: 1.5625rem;
+    padding: 2.1875rem 0;
+}
+
+.benefits-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.benefits-col{
+    width: 100%;
+    margin-bottom: 1.5625rem;
+    padding: 1.25rem 1.25rem;
+    border-radius: 1.25rem;
+    background-color: white;
+}
+
+/* /Benefits Section */
 /*-------------
  /MAIN
 ------------ */
