@@ -28,6 +28,7 @@ header{
     padding: 0 .3125rem;
 }
 
+/* Responsive Desktop */
 @media screen and (min-width: 1024px){
     .burger-menu{
         display: none;
@@ -37,6 +38,7 @@ header{
         display: flex;
     }
 }
+/* /Responsive Desktop */
 
 /*-------------
  /HEADER
@@ -46,7 +48,52 @@ header{
  MAIN
 ------------ */
 
+/* Higlights Section */
 
+.highlights{
+    margin-top: 1.25rem;
+}
+
+.highlights-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.highlights-col{
+    width: 100%;
+    margin-bottom: 1.5625rem;
+    padding: 1.25rem 1.25rem;
+    border-radius: 1.25rem;
+    background-color: var(--second-color);
+}
+
+/* Responsive Tablet */
+@media screen and (min-width: 726px) {
+    .highlights-col:first-child{
+        width: calc( (98% / 3) *2 );
+    }
+                                                        
+    .highlights-col{
+        width: 31%;
+    }
+}
+/* /Responsive Tablet */
+
+/* Responsive Desktop */
+@media screen and (min-width: 1025px) {
+    .highlights-col:first-child{
+        width: calc( (98% / 3) *2 );
+    }
+
+    .highlights-col{
+        width: 31%;
+    }
+}
+/* /Responsive Desktop */
+
+/* /Higlights Section */
 
 /*-------------
  /MAIN
