@@ -6,7 +6,38 @@
  HEADER
 ------------ */
 
+header{
+    background-color: var(--first-color);
+}
 
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 1.25rem;
+}
+
+.header-nav{
+    display: none;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.nav-link{
+    padding: 0 .3125rem;
+}
+
+@media screen and (min-width: 1024px){
+    .burger-menu{
+        display: none;
+    }
+
+    .header-nav{
+        display: flex;
+    }
+}
 
 /*-------------
  /HEADER
