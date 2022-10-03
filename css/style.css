@@ -239,3 +239,54 @@ header{
 /*-------------
  /MAIN
 ------------ */
+
+/*-------------
+ FOOTER
+------------ */
+
+/* Footer Section One */
+
+.footer-one{
+    text-align: center;
+    background-color: var(--third-color);
+}
+
+.footer-text{
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+}
+
+.first-title{
+    font-size: 1.25rem;
+}
+
+.footer-list{
+    padding-bottom: 1.25rem;
+}
+
+.footer-nav-link{
+    display: inline;
+}
+
+
+/* /Footer Section One */
+
+/* Footer Section two */
+
+.footer-two{
+    text-align: center;
+    padding-bottom: .625rem;
+    background-color: var(--footer-two-color);
+}
+
+.footer-two-text{
+    color: white;
+    padding-top: 1.25rem;
+    padding-bottom: 1.875rem;
+}
+
+/* /Footer Section two */
+
+/*-------------
+ /FOOTER
+------------ */
