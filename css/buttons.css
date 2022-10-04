@@ -21,9 +21,19 @@
 .strategic-btn{
     background-color: var(--third-color);
     margin: 1.25rem 0;
-    padding: .9375rem .9375rem;
+    padding: .625rem .9375rem;
     border-radius: 46%;
     border: none;
+}
+
+.benefits-btn{
+    color: white;
+    background-color: var(--third-color);
+    border: none;
+    border-radius: 1.5625rem;
+    padding: .3125rem 1.875rem;
+    margin-top: 1.25rem;
+    margin-bottom: .9375rem;
 }
 
 .footer-btn{
