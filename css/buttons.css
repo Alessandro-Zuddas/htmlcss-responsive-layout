@@ -18,6 +18,14 @@
     border: none;
 }
 
+.strategic-btn{
+    background-color: var(--third-color);
+    margin: 1.25rem 0;
+    padding: .9375rem .9375rem;
+    border-radius: 46%;
+    border: none;
+}
+
 .footer-btn{
     padding: .625rem .9375rem;
     margin-bottom: .9375rem;

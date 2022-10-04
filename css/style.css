@@ -104,6 +104,7 @@ header{
 }
 
 .highlights-img{
+    display: block;
     width: 100%;
     padding-top: .9375rem;
 }
@@ -167,10 +168,45 @@ header{
 
 .strategics-col{
     width: 100%;
-    margin: 1.5625rem 0;
-    /* DEBUG */
-    background-color: aqua;
-    /* /DEBUG */
+    margin: 1.25rem 0;
+}
+
+.strategics-small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 1.25rem;
+    padding: .9375rem .9375rem;
+}
+
+.strategics-img{
+    display: block;
+    width: 100%;
+}
+
+.strategics-img-two{
+    display: block;
+    width: 40%;
+}
+
+.strategic-title-one{
+    color: white;
+    padding: 1.5625rem 0;
+}
+
+.strategic-title-two{
+    color: black;
+    padding: 1.5625rem 0;
+}
+
+.strategic-text-one{
+    color: white;
+}
+
+.strategic-text-two{
+    color: black;
 }
 
 /* Responsive Desktop */
