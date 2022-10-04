@@ -146,6 +146,14 @@ header{
     background-color: var(--third-color);
 }
 
+/* Responsive Tablet */
+@media screen and (min-width: 726px) {
+    .staff-col{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 /* /Staff Section */
 
 /* Benefits Section */
