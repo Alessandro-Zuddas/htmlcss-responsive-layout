@@ -390,6 +390,41 @@ header{
     margin-bottom: 1.5625rem;
 }
 
+.about-us-title{
+    color: var(--third-color);
+    font-size: 1.875rem;
+}
+
+.about-us-main-text{
+    padding: .9375rem 0;
+}
+
+.about-img-container{
+    position: relative;
+}
+
+.about-img{
+    width: 60%;
+    border-radius: 3.125rem;
+}
+
+.about-us-slogan{
+    color: var(--third-color);
+    padding: .625rem 0;
+}
+
+.about-icon{
+    color: white;
+    padding-right: .625rem;
+}
+
+.about-decoration{
+    position: absolute;
+    left: 50%;
+    font-size: 3.75rem;
+    color: var(--third-color);
+}
+
 /* Responsive Tablet */
 @media screen and (min-width: 726px) {
 

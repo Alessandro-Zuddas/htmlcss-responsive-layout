@@ -16,6 +16,7 @@
     padding: .625rem 2.1875rem;
     border-radius: 1.25rem;
     border: none;
+    cursor: pointer;
 }
 
 .strategic-btn{
@@ -24,6 +25,7 @@
     padding: .625rem .9375rem;
     border-radius: 46%;
     border: none;
+    cursor: pointer;
 }
 
 .benefits-btn{
@@ -34,11 +36,22 @@
     padding: .3125rem 1.875rem;
     margin-top: 1.25rem;
     margin-bottom: .9375rem;
+    cursor: pointer;
+}
+
+.about-btn{
+    color: white;
+    background-color: var(--third-color);
+    border: none;
+    border-radius: 1.5625rem;
+    padding: .3125rem 1.875rem;
+    cursor: pointer;
 }
 
 .footer-btn{
     padding: .625rem .9375rem;
     margin-bottom: .9375rem;
+    cursor: pointer;
 }
 
 /*-------------
