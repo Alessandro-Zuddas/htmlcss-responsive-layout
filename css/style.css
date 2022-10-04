@@ -20,6 +20,19 @@ header{
 .header-row{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    width: 75%;
+}
+
+.burger-menu{
+    font-size: 1.5625rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .header-nav{
@@ -32,7 +45,9 @@ header{
 }
 
 .nav-link{
-    padding: 0 .3125rem;
+    text-decoration: none;
+    color: white;
+    padding: 0 .625rem;
 }
 
 /* Responsive Desktop */
@@ -58,7 +73,7 @@ header{
 /* Higlights Section */
 
 .highlights{
-    margin-top: 5.625rem;
+    margin-top: 6.25rem;
 }
 
 .highlights-row{
@@ -70,16 +85,48 @@ header{
 
 .highlights-col{
     width: 100%;
+    text-align: center;
     margin-bottom: 1.5625rem;
-    padding: 1.25rem 1.25rem;
+    padding: 0 1.25rem;
+    padding-top: 1.25rem;
     border-radius: 1.25rem;
     background-color: var(--second-color);
+}
+
+.high-main-title{
+    color: var(--first-color);
+}
+
+.highlights-text{
+    color: #5a6e7f;
+    padding: 1.25rem 0;
+    font-size: 1.125rem;
+}
+
+.highlights-img{
+    width: 100%;
+    padding-top: .9375rem;
+}
+
+.high-icons{
+    color: var(--first-color);
+    font-size: 3.125rem;
+}
+
+.high-title{
+    color: var(--first-color);
+    padding-top: .9375rem;
 }
 
 /* Responsive Tablet */
 @media screen and (min-width: 726px) {
     .highlights-col:first-child{
+        text-align: left;
         width: calc( (98% / 3) *2 );
+    }
+
+    .highlights-img{
+        width: 100%;
     }
                                                         
     .highlights-col{
@@ -92,6 +139,13 @@ header{
     .highlights-col:first-child{
         width: calc( (98% / 3) *2 );
     }
+
+    .high-card-container{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
 
     .highlights-col{
         width: 31%;
