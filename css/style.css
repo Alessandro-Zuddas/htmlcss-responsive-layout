@@ -466,16 +466,29 @@ header{
 }
 
 .footer-text{
+    color: white;
     padding-top: .9375rem;
     padding-bottom: .9375rem;
 }
 
 .first-title{
     font-size: 1.25rem;
+    color: #d5d4f4;
+}
+
+.second-title{
+    font-size: 1.875rem;
+}
+
+.free-title{
+    color: #fdc15f;
+    font-size: 3.125rem;
 }
 
 .footer-list{
+    color: white;
     padding-bottom: 1.25rem;
+    list-style: circle;
 }
 
 .footer-nav-link{
@@ -496,7 +509,11 @@ header{
 .footer-two-text{
     color: white;
     padding-top: 1.25rem;
-    padding-bottom: 1.875rem;
+    padding-bottom: 3.125rem;
+}
+
+.footer-end{
+    color: #8d88d3;
 }
 
 /* /Footer Section two */
